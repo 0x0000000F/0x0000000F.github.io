@@ -1,0 +1,31 @@
+@font-face {
+  font-family: CascadiaCode;
+  src: url(./CascadiaCode/CascadiaCode.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.V_background {
+  position: fixed;
+  z-index: -1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.page_one {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-family: CascadiaCode;
+  font-size: 64px;
+  /* margin: auto; */
+  vertical-align: middle;
+  color: white;
+}
