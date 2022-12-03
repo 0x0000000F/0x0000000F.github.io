@@ -26,6 +26,8 @@
   font-family: CascadiaCode;
   font-size: 64px;
   /* margin: auto; */
+  text-align: center;
+  width: 100%;
   vertical-align: middle;
   color: white;
 }
